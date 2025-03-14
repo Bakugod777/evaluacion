@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PQR</string>
+    <string name="minombre">Manuel Ardila</string>
+    <string name="registrate">Registrate</string>
+    <string name="texto_introductorio">inicia una nueva aventura con pqr y descubre una nueva forma de ver el mundo</string>
+    <string name="comenzar">Comienza</string>
+    <string name="texto_segundario">la aventura esta por iniciar, por favor inicia sesion</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="recuperar">Recuperar contraseña</string>
+    <string name="nocuenta">no tienes cuenta, registrate</string>
+    <string name="Google">ingresa sesion con google</string>
+    <string name="Correo_registrado">Este es su correo electrónico registrado</string>
+    <string name="No_registro">No registrado</string>
+    <string name="Nombre_registrado">Este es su nombre registrado</string>
+    <string name="Des">Desconocido</string>
+    <string name="Apellido_registrado">Este es su apellido registrado</string>
+    <string name="Telefono_registrado">Este es su número de teléfono</string>
+    <string name="Nam">Nombre</string>
+    <string name="ape">Apellido</string>
+    <string name="tf">Teléfono</string>
+    <string name="edt">Editar</string>
+    <string name="ing_contr">Ingrese su correo para recuperar la contraseña</string>
+    <string name="core">Correo Electrónico</string>
+    <string name="Envi">Enviar Correo</string>
+    <string name="Ing_datos">Ingrese sus datos para registrarse</string>
+    <string name="regis">Registrarse</string>
+    <string name="Ya_sesion">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="acep">Acepto los términos y condiciones</string>
+    <string name="no_coun">¿no tienes cuenta?,</string>
+    <string name="Finanza">Entrar a finanzas </string>
+    
+</resources>

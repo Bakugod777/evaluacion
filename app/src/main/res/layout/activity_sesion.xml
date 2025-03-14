@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple">
+
+    <Button
+        android:id="@+id/googleboton7"
+        android:layout_width="332dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gogle_rounded"
+        android:drawableLeft="@drawable/google"
+        android:paddingStart="16dp"
+        android:text="Iniciar sesión con Google"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/botonregistro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonrecupera" />
+
+    <ImageView
+        android:id="@+id/imagenicono"
+        android:layout_width="167dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="20dp"
+        android:src="@mipmap/_launcher_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/Nombreapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/imagenicono"
+        app:layout_constraintStart_toEndOf="@id/imagenicono"
+        app:layout_constraintTop_toTopOf="@id/imagenicono" />
+
+    <TextView
+        android:id="@+id/textodescriptivo"
+        android:layout_width="373dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/texto_segundario"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.588"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Nombreapp" />
+
+    <ImageView
+        android:id="@+id/imagenes2"
+        android:layout_width="81dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textodescriptivo"
+        app:srcCompat="@drawable/___1_" />
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="257dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gogle_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:hint="  Email"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toEndOf="@id/imagenes2"
+        app:layout_constraintTop_toBottomOf="@id/textodescriptivo" />
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="258dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/gogle_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:hint="  Contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/editTextUsuario"
+        app:layout_constraintTop_toBottomOf="@id/editTextUsuario" />
+
+    <Button
+        android:id="@+id/botoningresar"
+        android:layout_width="176dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/edit_text_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/ingresar"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextContraseña" />
+
+    <Button
+        android:id="@+id/botonrecupera"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/recuperar"
+        android:textColor="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botoningresar" />
+
+    <Button
+        android:id="@+id/botonregistro"
+        android:layout_width="96dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-medium"
+        android:text="registrate"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/googleboton7" />
+
+    <TextView
+        android:id="@+id/textoderegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/no_coun"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/botonregistro"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/googleboton7" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
