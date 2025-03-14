@@ -72,7 +72,7 @@
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textodescriptivo"
-        app:srcCompat="@drawable/___1_" />
+        app:srcCompat="@drawable/_2" />
 
     <EditText
         android:id="@+id/editTextUsuario"
